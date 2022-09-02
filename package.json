@@ -1,0 +1,27 @@
+{
+  "name": "cloudinary-to-s3",
+  "version": "1.0.0",
+  "description": "Move from Clodinary to AWS S3? Let's get started",
+  "engines": {
+    "node": "18.*"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Statsministeriet/cloudinary-to-s3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Statsministeriet/cloudinary-to-s3/issues"
+  },
+  "homepage": "https://github.com/Statsministeriet/cloudinary-to-s3#readme",
+  "dependencies": {
+    "aws": "^0.0.3-2",
+    "cloudinary": "^1.31.0",
+    "sdk": "^0.5.0"
+  }
+}

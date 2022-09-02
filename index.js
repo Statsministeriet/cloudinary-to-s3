@@ -37,7 +37,7 @@ const uploadFile = async (resource) => {
         method: 'GET',
         responseType: 'arraybuffer'
     })
-    const fileName = resource.asset_id +'.'+resource.format
+    const fileName = resource.public_id +'.'+resource.format
     const out = await S3Service.upload({
         ACL: "public-read",
         Bucket: configs.bucket,
